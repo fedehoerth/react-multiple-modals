@@ -1,0 +1,23 @@
+.modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0;
+  top: 0;
+  display: none;
+}
+
+.modal--shown {
+  display: block;
+}
+
+.modal__close {
+  float: right;
+  font-size: 30px;
+  border: 0;
+  margin: 10px;
+}
+
+.modal__container {
+  padding: 100px;
+}
